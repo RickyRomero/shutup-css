@@ -42,10 +42,15 @@
  * (Make an exception for <code> elements, whose "comments" are
  * a different animal) 
 */
-.comments:not(code),
-.Comments:not(code),
-#comments:not(code),
-#Comments:not(code),
+[id*="comment"]:not(code),
+[id*="Comment"]:not(code),
+[id*="COMMENT"]:not(code),
+[class*="comment"]:not(code),
+[class*="Comment"]:not(code),
+[class*="COMMENT"]:not(code),
+[name*="comment"]:not(code),
+[name*="Comment"]:not(code),
+[name*="COMMENT"]:not(code),
 
 /* CNN and other sites that use Disqus */
 #disqus_thread,
