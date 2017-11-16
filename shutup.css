@@ -244,15 +244,15 @@ span#react-root article section + div > ul > li > a.notranslate + span,
  * Some pages use a comments class on the top level element,
  * blocking the whole page. Weird.
  */
-html[id*="comment"], body[id*="comment"]
-html[id*="Comment"], body[id*="Comment"]
-html[id*="COMMENT"], body[id*="COMMENT"]
-html[class*="comment"], body[class*="comment"]
-html[class*="Comment"], body[class*="Comment"]
-html[class*="COMMENT"], body[class*="COMMENT"]
-html[name*="comment"], body[name*="comment"]
-html[name*="Comment"], body[name*="Comment"]
-html[name*="COMMENT"], body[name*="COMMENT"]
+html[id*="comment"], body[id*="comment"],
+html[id*="Comment"], body[id*="Comment"],
+html[id*="COMMENT"], body[id*="COMMENT"],
+html[class*="comment"], body[class*="comment"],
+html[class*="Comment"], body[class*="Comment"],
+html[class*="COMMENT"], body[class*="COMMENT"],
+html[name*="comment"], body[name*="comment"],
+html[name*="Comment"], body[name*="Comment"],
+html[name*="COMMENT"], body[name*="COMMENT"],
 
 /* highlight.js */
 code span.comment,
