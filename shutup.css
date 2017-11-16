@@ -35,14 +35,8 @@
 
 /* YouTube (standard and Feather interfaces) */
 
-#watch-comment-panel,
 #cm,
-#watch-comments-core,
 #watch-discussion,
-
-/* YouTube (late 2013, G+ integration) */
-
-#comments-test-iframe,
 
 /* 
  * Digg and other sites that use "comments" divs
@@ -54,7 +48,6 @@
 .Comments:not(code),
 #comments:not(code),
 #Comments:not(code),
-#comments_container,
 
 /* CNN and other sites that use Disqus */
 
@@ -73,117 +66,13 @@
 
 .revcontent,
 
-/* WordPress default Kubrick theme and descendents */
-
-.commentlist,
-
-/* Slashdot */
-
-#commentlisting,
-
-/* CBC News */
-
-#socialcomments,
-#commentwrapper,
-
-/* C|Net News.com */
-
-.commentwrapper,
-
-/* Reddit */
-
-.commentarea,
-
-/* Designer News */
-
-#story-comments,
-
-/* OregonLive and generic "comment" class */
-
-.comment,
-
-/* KATU */
-
-#commentform,
-
-/* Washington Post and other sites that use "commentText" divs */
-
-.commentText,
-
-/* Gannett newspapers and other sites that use Pluck */
-
-div#pluckcomments,
-
 /* Last.fm shoutbox */
 
 div#page div#content h2#shoutbox, div#page div#content div#shoutboxContainer,
 
-/* The Globe and Mail */
-
-#latest-comments,
-
-/* EW */
-
-.commentHolder,
-
-/* Unknown */
-
-.comments-list,
-#blogComments,
-#comments_pane,
-#commentcontainer,
-#commentsDiv,
-
-/* Boxee */
-
-.comment-container, 
-#comment-container,
-
-/* MLB */
-
-#comment_container,
-
-/* CNN */
-
-#commentblob,
-#cnnComments,
-
-/* The Stranger */
-
-#BrowseComments,
-
-/* Yahoo News */
-
-.mwpphu-comments,
-.ugccmt-comments,
-
-/* Coding Horror */
-
-.comments-body,
-
-/* seen on Reuters */
-
-.articleComments,
-
 /* nationalpost.com (Pluck) */
 
 .pluck-comm,
-
-/* KATU */
-
-.page-comments,
-
-/* DeviantArt */
-
-#gmi-CCommentMaster,
-
-/* Some blogs */
-
-.comments-container,
-
-/* Oprah */
-
-#media_comments,
 
 /* 9to5mac */
 
@@ -191,58 +80,14 @@ div#page div#content h2#shoutbox, div#page div#content div#shoutboxContainer,
 
 /* Livefyre */
 
-#livefyre_comment_stream,
 #livefyre-body,
 #livefyre,
 .fyre,
-
-/* PC World */
-
-#articleComments,
-
-/* Slate */
-
-.js-CommentsArea,
-
-/* NYTimes Blogs */
-
-#readerComments,
-.readerComments,
-#commentsContainer,
-.commentsContainer,
-.commentsModule,
-
-/* nytimes.com */
-
-span.postMetaHeaderCommentCount.commentCount,
-button.comments-button,
-a.commentCountLink,
-p.theme-comments,
-
-/* BBC News */
-
-.dna-comment,
 
 /* ZDNet */
 
 .view-6, 
 .space-_5,
-
-/* Gamasutra */
-
-.all_comments,
-
-/* dvice.com */
-
-#display_comments,
-
-/* hp.com */
-
-.article-comments,
-
-/* unionleader.com */
-
-#commentscontainer,
 
 /* ifc.com */
 
@@ -252,37 +97,12 @@ p.theme-comments,
 
 #feedback,
 
-/* thenextweb.com */
-
-#lf_comments,
-#lf_twitter_comments,
-#lf_facebook_comments,
-#lf_comment_stream,
-
-/* MacWorld */
-
-#commentList,
-
-/* ft.com */
-
-#inferno-comments,
-
 /* tidbits.com */
 
 .cb_block,
 
-/* dilbert.com */
-
-.CMT_CommentList,
-
-/* Cracked */
- 
-#comments_section,
-
 /* Facebook feedback */
 
-.fb-comments,
-.UFIComment,
 fb\:comments,
 
 /* buzzfeed */
@@ -290,15 +110,8 @@ fb\:comments,
 #responses,
 #facebook_responses,
 #facebook_conversations,
-#fb_comments_wrapper,
-#fb_comments_control,
-.fb-comments-area,
 #respond,
 #badge_voting,
-
-/* spiegel.de */
-
-.spCommentsBoxBody,
 
 /* auto-motor-und-sport.de */
 
@@ -307,21 +120,14 @@ fb\:comments,
 /* corriere.it */
 
 #body_dlt,
-#comment_box_article,
 
 /* repubblica.it */
 
 #ugc-container,
-#gs-social-comments,
-.gig-comments-container,
 
 /* faz.net */
 
 .ArtikelKommentieren,
-
-/* Giant Bomb avatars */
-
-.comment-avatar-wrap,
 
 /* hlntv.com */
 
@@ -331,31 +137,13 @@ fb\:comments,
 
 .pluck-wrap,
 
-/* TwitPic */
-
-#media-comments,
-
 /* Guardian */
 
 #d2-root,
 
-/* E! Online */
-
-.thyme-comment-list,
-
-/* SoundCloud */
-
-.commentsList__item .commentItem,
-.commentPopover,
-
-/* Penny Arcade report */
-
-#vanilla-comments,
-
 /* Mother Nature Network */
 
 .replies-wrapper > .replies,
-.view-comment-list,
 
 /* New Jalopnik (and Gawker?) */
 
@@ -369,88 +157,24 @@ fb\:comments,
 
 #kommentit,
 
-/* NewsBlur */
-
-.NB-feed-story-comments,
-
-/* Russia Today */
-.b-comments_page,
-
-/* Hearst sites */
-.hdn-comments,
-
-/* Cox Media sites */
-#cmComments,
-
-/* cleveland.com */
-.rtb-apps-comments-container,
-
 /* derstandard.at */
 .communityCanvas,
-
-/* presse.at */
-#commentbox,
-#newcommentform,
 
 /* ka-news.de */
 #QuickRegCon,
 
-/* tagesschau.de */
-.modCon.modConComments,
-
 /* taz.de */
 .full.community.page.last.even,
-
-/* spiegel.de */
-.clearfix.article-comments-box.module-box,
 
 /* handelsblatt.com */
 .hcf-article.hcf-content.hcf-article-type2,
 
-/* fr-online.de */
-#commentsRoot,
-.Comment,
-
 /* huffingtonpost.de */
 #conversations-huffpost-web-main,
-
-/* tagesspiegel.de*/
-#hcf-comment-wrapper.hcf-comments,
-#commentInput.hcf-comments-input,
-.hcf-comments,
-
-/* wiwo.de */
-.hcf-detail.hcf-comments-container,
-
-/* arstechnica.com */
-
-aside.comments-hotness,
-a.comment-count,
-div.comments-bar,
-
-/* trakt.tv */
-
-.summary-comments,
 
 /* Kotaku */
 .post-content .annotation-footnote-wrapper,
 .post-content .annotateButton,
-
-/* imgur */
-#comments-container,
-
-/* Curbed */
-.post-comments-module,
-#comments-count,
-.comments-body-container,
-
-/* Polygon */
-.m-hero__comment-count,
-.comment_count,
-
-/* SB Nation */
-.m-comment-count__bubble,
-.m-stream__node-list__comments,
 
 /* The Verge */
 [data-ui=comment],
@@ -461,32 +185,11 @@ div.comments-bar,
 /* lefigaro.fr */
 #reagir,
 
-/* rue89.nouvelobs.com */
-#commentaires,
-
-/* numerama.com */
-.commentaires,
-
 /* huffingtonpost.fr */
 #conversations-huffpost-web,
 
-/* Civil Comments */
-#civil-comments,
-
-/* 9gag */
-.post-comment,
-
 /* Engadget (Confab) */
 .confab,
-
-/* Gamasutra */
-#dynamiccomments,
-
-/* GameSpot */
-.comments-block,
-
-/* LINE Webtoon */
-.comment_area,
 
 /* NAVER News */
 #cbox_module,
@@ -507,36 +210,17 @@ div.comments-bar,
 /* UOL */
 #comentarios,
 
-/* Folha */
-#article-comments,
-
 /* Veja */
 .abril-comentarios-widget,
 
 /* VK */
 .replies_wrap > div:first-child,
-#pv_comments.wall_module,
-#mv_comments.wall_module,
-
-/* Dailymotion */
-.pl_video_comment_post_and_comments,
 
 /* 
  * nu.nl and other Dutch websites that use the 'reacties' and 'reactieContainer' class
 */
 .reacties, /* nu.nl */
 .reactieContainer, /* tweakers.net */
-
-/* investor.bg and possibly others */
-
-.comments_article,
-#comments-frame,
-
-/* hs.fi */
-#commenting,
-
-/* iltasanomat.fi */
-.is-comments-widget,
 
 /* taloussanomat.fi */
 .xcContainer,
@@ -556,9 +240,6 @@ a.button.annotation-count,
 #watch-sidebar-live-chat,
 ytd-live-chat-frame,
 
-/* GoComics */
-.js-comments-thread-container,
-
 /* Patreon */
 [data-test-tag="comment-row"],
 
@@ -571,15 +252,8 @@ span#react-root article section + div > ul > li > a.notranslate + span,
 
 /* ...misc... */
 
-#commentlist,
 .discussionContainer,
-.commentBoxStyle,
-.pagecomment,
-.pagecommentheader,
 .com_text,
-.commenttxt,
-.post-comments,
-.post-comment-list,
 #cmtWrapper
 
 {
