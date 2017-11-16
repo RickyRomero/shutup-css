@@ -34,7 +34,6 @@
  */
 
 /* YouTube (standard and Feather interfaces) */
-
 #cm,
 #watch-discussion,
 
@@ -43,70 +42,55 @@
  * (Make an exception for <code> elements, whose "comments" are
  * a different animal) 
 */
-
 .comments:not(code),
 .Comments:not(code),
 #comments:not(code),
 #Comments:not(code),
 
 /* CNN and other sites that use Disqus */
-
 #disqus_thread,
 #dsq-content,
 
 /* Ain't It Cool News */
-
 .block-talkback_story,
 
 /* VersionTracker */
-
 #prodReviews,
 
 /* MacUpdate */
-
 .revcontent,
 
 /* Last.fm shoutbox */
-
 div#page div#content h2#shoutbox, div#page div#content div#shoutboxContainer,
 
 /* nationalpost.com (Pluck) */
-
 .pluck-comm,
 
 /* 9to5mac */
-
 #idc-container-parent,
 
 /* Livefyre */
-
 #livefyre-body,
 #livefyre,
 .fyre,
 
 /* ZDNet */
-
 .view-6, 
 .space-_5,
 
 /* ifc.com */
-
 .echo-stream-container,
 
 /* creativereview.co.uk */
-
 #feedback,
 
 /* tidbits.com */
-
 .cb_block,
 
 /* Facebook feedback */
-
 fb\:comments,
 
 /* buzzfeed */
-
 #responses,
 #facebook_responses,
 #facebook_conversations,
@@ -114,47 +98,36 @@ fb\:comments,
 #badge_voting,
 
 /* auto-motor-und-sport.de */
-
 .kommentare_uebersicht,
 
 /* corriere.it */
-
 #body_dlt,
 
 /* repubblica.it */
-
 #ugc-container,
 
 /* faz.net */
-
 .ArtikelKommentieren,
 
 /* hlntv.com */
-
 .fbFeedbackContent,
 
 /* mirror.co.uk */
-
 .pluck-wrap,
 
 /* Guardian */
-
 #d2-root,
 
 /* Mother Nature Network */
-
 .replies-wrapper > .replies,
 
 /* New Jalopnik (and Gawker?) */
-
 .js_replies,
 
 /* TSN.ca */
-
 #tsnYourCallStory,
 
 /* HS.fi */
-
 #kommentit,
 
 /* derstandard.at */
@@ -251,7 +224,6 @@ span#react-root article section + div > ul > li > a.notranslate,
 span#react-root article section + div > ul > li > a.notranslate + span,
 
 /* ...misc... */
-
 .discussionContainer,
 .com_text,
 #cmtWrapper
