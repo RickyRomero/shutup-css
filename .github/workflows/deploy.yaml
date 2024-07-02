@@ -34,7 +34,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: '14'
+          node-version: '22'
       - name: Checkout main
         uses: actions/checkout@v4
         with:
