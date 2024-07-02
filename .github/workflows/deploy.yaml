@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Prepare stylesheet
         run: |
           mkdir -p $GITHUB_WORKSPACE/build
@@ -19,7 +19,7 @@ jobs:
           brotli -9 --no-copy-stat --stdout $GITHUB_WORKSPACE/build/shutup.css > $GITHUB_WORKSPACE/build/shutup.css.br
           gzip --best --no-name --stdout $GITHUB_WORKSPACE/build/shutup.css > $GITHUB_WORKSPACE/build/shutup.css.gz
       - name: Deploy update
-        uses: AEnterprise/rsync-deploy@06168fb7cc757886bb6e8d143caf20935987beb3
+        uses: AEnterprise/rsync-deploy@8ef1b35794fef8b38c0f5f91dac0ef7f5b4566e5
         env:
           DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}
           ARGS: "-havP --progress"
@@ -32,15 +32,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: '14'
       - name: Checkout main
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: shutup-css
       - name: Checkout webextension
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.PR_TOKEN }}
           repository: RickyRomero/shut-up-webextension
@@ -63,7 +63,7 @@ jobs:
           EOF
           ) | node
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@d9d6fd980e1e0904e8e4dce3f0992640091bde37
+        uses: peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c
         with:
           token: ${{ secrets.PR_TOKEN }}
           path: shut-up-webextension
