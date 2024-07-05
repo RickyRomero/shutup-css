@@ -51,7 +51,7 @@ jobs:
           (
           cat <<EOF
           const fs = require('fs')
-          const manifestPath = './shut-up-webextension/src/manifest.json'
+          const bumpVersion = manifestPath => {
           const manifest = require(manifestPath)
           const versionComponents = manifest.version.split('.').map(str => Number(str))
           while (versionComponents.length < 4) {
@@ -60,6 +60,9 @@ jobs:
           versionComponents[3] += 1
           manifest.version = versionComponents.join('.')
           fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2))
+          }
+          bumpVersion('./shut-up-webextension/src/manifest.json')
+          bumpVersion('./shut-up-webextension/src/manifest.ffx.json')
           EOF
           ) | node
       - name: Create Pull Request
