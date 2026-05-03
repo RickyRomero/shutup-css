@@ -314,6 +314,9 @@ a[href="#kommune"],
 /* teltarif.de */
 #LxComments,
 
+/* transfermarkt.de */
+div.box:has(a.profil-wappen),
+
 /* tz.de */
 .id-Comment,
 
@@ -612,6 +615,9 @@ div#root > div[class^="sc-"] > div[class^="sc-"] > div:not([class])
 
 /* gamespot.com */
 .comments-block,
+
+/* gbatemp.net */
+div.block--messages.block:nth-of-type(2),
 
 /* giantbomb.com */
 .js-comments-block, /* comments */
@@ -975,6 +981,7 @@ iframe[src*="ffx.io/api/comments"],                               /* Fairfax Med
 .js_replies,                                                      /* Gawker */
 .js_comments-iframe,                                              /* Gawker */
 div.gh-comments,                                                  /* Ghost */
+iframe[src*="giscus.app"],                                        /* Giscus */
 .hdn-comments,                                                    /* Hearst Communications */
 nav[aria-label="Hopin main menu"] ~ div.test-id-panel#side-panel, /* Hopin Chat */
 iframe[src*="comments.ign.com"],                                  /* IGN */
@@ -982,6 +989,7 @@ iframe[src*="comments.ign.com"],                                  /* IGN */
 #insticator-commenting,                                           /* Insticator */
 .instiengage-comments,                                            /* Insticator */
 .status-reply.status--in-thread,                                  /* Mastodon */
+div.microblog_conversation,                                       /* Micro.blog */
 body [id*=spotim i],                                              /* OpenWeb/SpotIM */
 body [id*=spot-im i],                                             /* OpenWeb/SpotIM */
 body [id*=openweb i],                                             /* OpenWeb/SpotIM */
